@@ -5,10 +5,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover protractor \"test/*-spec.js\"",
-    "lint": "eslint index.js",
-    "ci-test": "istanbul cover protractor \"test/*-spec.js\" > test.tap && istanbul report clover",
-    "ci-lint": "eslint -f checkstyle index.js > checkstyle-result.xml"
+    "test": "istanbul cover protractor \"test/conf.js\"",
+    "lint": "eslint todo-spec.js",
+    "ci-test": "istanbul cover protractor \"test/conf.js\" > test.tap && istanbul report clover",
+    "ci-lint": "eslint -f checkstyle todo-spec.js > checkstyle-result.xml"
   },
   "keywords": [],
   "author": "Thyag <thyagarajulunaidu@yahoo.com>",
