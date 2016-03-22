@@ -10,7 +10,7 @@ var expect = chai.expect;
 // jshint expr:true
 
 describe('protractor library', function() {
-	this.timeout(15000);
+	this.timeout(50000);
   it('should wrap webdriver', function() {
     // Mocha will report the spec as slow if it goes over this time in ms.
     browser.driver.manage().window().maximize();
