@@ -1,5 +1,5 @@
 {
-  "name": "Kira",
+  "name": "kira",
   "version": "1.0.0",
   "private": true,
   "description": "",
@@ -14,8 +14,14 @@
   "author": "Thyag <thyagarajulunaidu@yahoo.com>",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^0.10.2",
-    "istanbul": "^0.3.2",
-    "tape": "^3.0.3"
+    "eslint": "*",
+    "istanbul": "*",
+    "tape": "*",
+    "node" :"*",
+    "npm": "*",
+    "mocha": "*",
+    "chai": "*",
+    "chai-as-promised": "*",
+    "protractor": "*"
   }
 }
