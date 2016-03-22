@@ -14,14 +14,14 @@
   "author": "Thyag <thyagarajulunaidu@yahoo.com>",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "*",
-    "istanbul": "*",
-    "tape": "*",
-    "node" :"*",
-    "npm": "*",
-    "mocha": "*",
-    "chai": "*",
-    "chai-as-promised": "*",
-    "protractor": "*"
+    "eslint": "2.4.0",
+    "istanbul": "0.4.2",
+    "tape": "4.5.1",
+    "node" :"5.9.0",
+    "npm": "3.7.3",
+    "mocha": "2.4.5",
+    "chai": "3.5.0",
+    "chai-as-promised": "5.3.0",
+    "protractor": "3.2.1"
   }
 }
