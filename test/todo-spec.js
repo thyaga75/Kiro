@@ -1,5 +1,7 @@
 // Use the external Chai As Promised to deal with resolving promises in
 // expectations.
+/*eslint node: true */
+"use strict";
 var chai = require('chai');
 var chaiAsPromised = require('chai-as-promised');
 chai.use(chaiAsPromised);
