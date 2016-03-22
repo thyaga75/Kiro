@@ -1,0 +1,10 @@
+Using the selenium server at http://localhost:4444/wd/hub
+[launcher] Running 1 instances of WebDriver
+
+    protractor library should wrap webdriver: Click worked
+  ․ protractor library should wrap webdriver: 9722ms
+
+  1 passing (10s)
+
+[launcher] 0 instance(s) of WebDriver still running
+[launcher] firefox #01 passed

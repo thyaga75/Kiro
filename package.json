@@ -8,7 +8,7 @@
     "test": "istanbul cover protractor \"test/conf.js\"",
     "lint": "eslint todo-spec.js",
     "ci-test": "istanbul cover protractor \"test/conf.js\" > test.tap && istanbul report clover",
-    "ci-lint": "eslint -f checkstyle todo-spec.js > checkstyle-result.xml"
+    "ci-lint": "eslint -f checkstyle \"test/todo-spec.js\" > checkstyle-result.xml"
   },
   "keywords": [],
   "author": "Thyag <thyagarajulunaidu@yahoo.com>",
