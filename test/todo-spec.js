@@ -19,8 +19,8 @@ describe('protractor library', function() {
    // var EC = protractor.ExpectedConditions;
     //browser.driver.findElement(by.name('p')).sendKeys('testing');
     //this.timeout(5000);
-    browser.driver.findElement(by.css('.yom-list li:nth-child(1)')).click().then(function(){
-    	console.log('Click worked');
+    //browser.driver.findElement(by.css('.yom-list li:nth-child(1)')).click().then(function(){
+    	//console.log('Click worked');
     //	browser.driver.sleep(5000);
     });
 	
