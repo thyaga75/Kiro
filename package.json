@@ -24,6 +24,7 @@
     "istanbul": "0.4.2",
     "tape": "4.5.1",
     "tap4j": "3.2",
-    "mocha-tap-reporter": "0.1.3"
+    "mocha-tap-reporter": "0.1.3",
+    "istanbul": "*"
   }
 }
